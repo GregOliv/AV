@@ -1,0 +1,6 @@
+# AV Guard Whitelist — known-safe SHA-256 hashes
+# Tambahkan hash file yang Anda yakin aman di sini (satu per baris)
+# File yang hashnya ada di sini TIDAK akan ditandai sebagai ancaman
+#
+# Format: satu SHA-256 hash per baris (64 karakter hex)
+# Baris yang dimulai dengan # adalah komentar
