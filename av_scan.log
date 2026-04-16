@@ -1,0 +1,212 @@
+[2026-04-05 21:11:22] [INFO] Loaded 1 hashes from: data\hashdb.txt
+[2026-04-05 21:11:22] [INFO] Database loaded: 1 signatures
+[2026-04-05 21:11:22] [INFO] Quarantine initialized at: data\quarantine
+[2026-04-05 21:11:22] [INFO] Starting scan: D:\
+[2026-04-05 21:18:53] [INFO] Loaded 1 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:18:53] [INFO] Database loaded: 1 signatures
+[2026-04-05 21:18:53] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:18:53] [INFO] Starting scan: D:\
+[2026-04-05 21:27:21] [INFO] Loaded 1 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:27:21] [INFO] Database loaded: 1 signatures
+[2026-04-05 21:27:21] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:27:21] [INFO] Starting scan: D:\
+[2026-04-05 21:27:26] [INFO] Loaded 1 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:27:26] [INFO] Database loaded: 1 signatures
+[2026-04-05 21:27:26] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:27:26] [INFO] Starting scan: D:\
+[2026-04-05 21:27:48] [INFO] Loaded 1 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:27:48] [INFO] Database loaded: 1 signatures
+[2026-04-05 21:27:48] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:27:48] [INFO] Starting scan: D:\
+[2026-04-05 21:39:37] [INFO] Loaded 1 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:39:37] [INFO] Database loaded: 1 signatures
+[2026-04-05 21:39:37] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:39:37] [INFO] Starting scan: C:\Users\Gregorius Oliver\Downloads
+[2026-04-05 21:39:37] [INFO] Files to scan: 2
+[2026-04-05 21:39:37] [INFO] Scan complete: 2 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.007590s
+[2026-04-05 21:39:46] [INFO] Loaded 1 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:39:46] [INFO] Database loaded: 1 signatures
+[2026-04-05 21:39:46] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:39:46] [INFO] Starting scan: C:\Users\Gregorius Oliver\Downloads
+[2026-04-05 21:39:46] [INFO] Files to scan: 2
+[2026-04-05 21:39:46] [INFO] Scan complete: 2 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.000500s
+[2026-04-05 21:39:47] [INFO] Loaded 1 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:39:47] [INFO] Database loaded: 1 signatures
+[2026-04-05 21:39:47] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:39:47] [INFO] Starting scan: C:\Users\Gregorius Oliver\Downloads
+[2026-04-05 21:39:47] [INFO] Files to scan: 2
+[2026-04-05 21:39:47] [INFO] Scan complete: 2 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.000507s
+[2026-04-05 21:39:58] [INFO] Loaded 1 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:39:58] [INFO] Database loaded: 1 signatures
+[2026-04-05 21:39:58] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:39:58] [INFO] Starting scan: D:\
+[2026-04-05 21:40:01] [INFO] Loaded 1 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:40:01] [INFO] Database loaded: 1 signatures
+[2026-04-05 21:40:01] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:40:01] [INFO] Starting scan: D:\
+[2026-04-05 21:41:55] [INFO] Loaded 1 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:41:55] [INFO] Database loaded: 1 signatures
+[2026-04-05 21:41:55] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:41:55] [INFO] Starting scan: C:\Users\Gregorius Oliver\Downloads
+[2026-04-05 21:41:55] [INFO] Files to scan: 3
+[2026-04-05 21:41:55] [INFO] Scan complete: 3 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.000631s
+[2026-04-05 21:42:48] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:42:48] [INFO] Database loaded: 2 signatures
+[2026-04-05 21:42:48] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:42:48] [INFO] Starting scan: C:\Users\Gregorius Oliver\Downloads
+[2026-04-05 21:42:48] [INFO] Files to scan: 3
+[2026-04-05 21:42:48] [CRITICAL] THREAT DETECTED: C:\Users\Gregorius Oliver\Downloads\eicar_com.zip [2546dcffc5ad854d4ddc64fbf056871cd5a00f2471cb7a5bfd4ac23b6e9eedad]
+[2026-04-05 21:42:48] [INFO] Quarantined: C:\Users\Gregorius Oliver\Downloads\eicar_com.zip -> 1775400168468_eicar_com.zip.quarantined
+[2026-04-05 21:42:48] [INFO] Scan complete: 3 files scanned, 1 threats found, 0 errors, 1 quarantined, time: 0.004041s
+[2026-04-05 21:44:02] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-05 21:44:02] [INFO] Database loaded: 2 signatures
+[2026-04-05 21:44:02] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-05 21:44:02] [INFO] Starting scan: D:\testing
+[2026-04-05 21:44:02] [INFO] Files to scan: 1
+[2026-04-05 21:44:02] [CRITICAL] THREAT DETECTED: D:\testing\eicar_com.zip [2546dcffc5ad854d4ddc64fbf056871cd5a00f2471cb7a5bfd4ac23b6e9eedad]
+[2026-04-05 21:44:02] [INFO] Quarantined: D:\testing\eicar_com.zip -> 1775400242003_eicar_com.zip.quarantined
+[2026-04-05 21:44:02] [INFO] Scan complete: 1 files scanned, 1 threats found, 0 errors, 1 quarantined, time: 0.000998s
+[2026-04-06 09:55:25] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 09:55:25] [INFO] Database loaded: 2 signatures
+[2026-04-06 09:55:25] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-06 09:55:25] [INFO] Starting scan: D:\testing
+[2026-04-06 09:55:25] [INFO] Files to scan: 0
+[2026-04-06 09:55:25] [INFO] Scan complete: 0 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.000212s
+[2026-04-06 10:03:42] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 10:03:42] [INFO] Database loaded: 2 signatures
+[2026-04-06 10:03:42] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-06 10:03:42] [INFO] Starting scan: D:\testing
+[2026-04-06 10:03:42] [INFO] Files to scan: 1
+[2026-04-06 10:03:42] [CRITICAL] THREAT DETECTED: D:\testing\eicar_com.zip [2546dcffc5ad854d4ddc64fbf056871cd5a00f2471cb7a5bfd4ac23b6e9eedad]
+[2026-04-06 10:03:42] [INFO] Quarantined: D:\testing\eicar_com.zip -> 1775444622269_eicar_com.zip.quarantined
+[2026-04-06 10:03:42] [INFO] Scan complete: 1 files scanned, 1 threats found, 0 errors, 1 quarantined, time: 0.001660s
+[2026-04-06 13:39:58] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:39:58] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:39:58] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-06 13:39:58] [INFO] Starting scan: D:\testing
+[2026-04-06 13:39:58] [INFO] Files to scan: 1
+[2026-04-06 13:39:58] [CRITICAL] THREAT DETECTED: D:\testing\eicar_com.zip [2546dcffc5ad854d4ddc64fbf056871cd5a00f2471cb7a5bfd4ac23b6e9eedad]
+[2026-04-06 13:39:58] [INFO] Quarantined: D:\testing\eicar_com.zip -> 1775457598328_eicar_com.zip.quarantined
+[2026-04-06 13:39:58] [INFO] Scan complete: 1 files scanned, 1 threats found, 0 errors, 1 quarantined, time: 0.001468s
+[2026-04-06 13:41:52] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:41:52] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:41:52] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-06 13:41:52] [INFO] Starting scan: D:\
+[2026-04-06 13:42:05] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:42:05] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:42:05] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-06 13:42:05] [INFO] Starting scan: C:\
+[2026-04-06 13:42:08] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:42:08] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:42:08] [INFO] Starting scan: C:\Users\Gregorius Oliver\AppData\Local\Google\Chrome SxS\Application\chrome.exe
+[2026-04-06 13:42:08] [INFO] Files to scan: 1
+[2026-04-06 13:42:08] [INFO] Scan complete: 1 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.006082s
+[2026-04-06 13:42:08] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:42:08] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:42:08] [INFO] Starting scan: C:\Users\Gregorius Oliver\AppData\Local\Google\Chrome SxS\Application\chrome.exe
+[2026-04-06 13:42:08] [INFO] Files to scan: 1
+[2026-04-06 13:42:08] [INFO] Scan complete: 1 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.006815s
+[2026-04-06 13:42:08] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:42:08] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:42:08] [INFO] Starting scan: C:\Users\Gregorius Oliver\AppData\Local\Google\Chrome SxS\Application\chrome.exe
+[2026-04-06 13:42:08] [INFO] Files to scan: 1
+[2026-04-06 13:42:08] [INFO] Scan complete: 1 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.006653s
+[2026-04-06 13:42:10] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:42:10] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:42:10] [INFO] Starting scan: C:\Users\Gregorius Oliver\AppData\Local\Google\Chrome SxS\Application\chrome.exe
+[2026-04-06 13:42:10] [INFO] Files to scan: 1
+[2026-04-06 13:42:10] [INFO] Scan complete: 1 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.005589s
+[2026-04-06 13:42:22] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:42:22] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:42:22] [INFO] Starting scan: C:\Users\Gregorius Oliver\AppData\Local\Google\Chrome SxS\Application\chrome.exe
+[2026-04-06 13:42:22] [INFO] Files to scan: 1
+[2026-04-06 13:42:22] [INFO] Scan complete: 1 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.006337s
+[2026-04-06 13:42:22] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:42:22] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:42:22] [INFO] Starting scan: C:\Users\Gregorius Oliver\AppData\Local\Google\Chrome SxS\Application\chrome.exe
+[2026-04-06 13:42:22] [INFO] Files to scan: 1
+[2026-04-06 13:42:22] [INFO] Scan complete: 1 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.005503s
+[2026-04-06 13:42:28] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:42:28] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:42:28] [INFO] Starting scan: C:\Program Files\Google\Chrome\Application\chrome.exe
+[2026-04-06 13:42:28] [INFO] Files to scan: 1
+[2026-04-06 13:42:28] [INFO] Scan complete: 1 files scanned, 0 threats found, 0 errors, 0 quarantined, time: 0.005597s
+[2026-04-06 13:42:29] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:42:29] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:42:29] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-06 13:42:29] [INFO] Starting scan: C:\
+[2026-04-06 13:42:35] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-06 13:42:35] [INFO] Database loaded: 2 signatures
+[2026-04-06 13:42:35] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-06 13:42:35] [INFO] Starting scan: D:\
+[2026-04-08 07:30:56] [INFO] Loaded 2 hashes from: D:\AV\data\hashdb.txt
+[2026-04-08 07:30:56] [INFO] Database loaded: 2 signatures
+[2026-04-08 07:30:56] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-08 07:30:56] [INFO] Starting scan: D:\
+[2026-04-08 07:42:25] [INFO] Loaded 36 hashes from: D:\AV\data\hashdb.txt
+[2026-04-08 07:42:25] [INFO] Database loaded: 36 signatures
+[2026-04-08 07:42:25] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-08 07:42:25] [INFO] Starting scan: D:\
+[2026-04-08 07:49:23] [INFO] Loaded 36 hashes from: D:\AV\data\hashdb.txt
+[2026-04-08 07:49:23] [INFO] Database loaded: 36 signatures
+[2026-04-08 07:49:23] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-08 07:49:23] [INFO] Starting scan: C:\
+[2026-04-08 07:49:31] [INFO] Loaded 36 hashes from: D:\AV\data\hashdb.txt
+[2026-04-08 07:49:31] [INFO] Database loaded: 36 signatures
+[2026-04-08 07:49:31] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-08 07:49:31] [INFO] Starting scan: D:\
+[2026-04-08 07:54:59] [INFO] RansomwareShield stopped
+[2026-04-08 07:54:59] [INFO] ProcessGuard stopped
+[2026-04-08 07:59:40] [INFO] Loaded 36 hashes from: D:\AV\data\hashdb.txt
+[2026-04-08 07:59:40] [INFO] Database loaded: 36 signatures
+[2026-04-08 07:59:40] [INFO] Quarantine initialized at: D:\AV\data\quarantine
+[2026-04-08 07:59:40] [INFO] Starting scan: D:\
+[2026-04-08 07:59:48] [INFO] Files to scan: 550732
+[2026-04-08 08:00:07] [INFO] ProcessGuard started
+[2026-04-08 08:00:07] [INFO] Loaded 36 hashes from: D:\AV\data\hashdb.txt
+[2026-04-08 08:00:08] [INFO] Canary deployed: D:\AV\data\canary\Important_Budget_2026.xlsx
+[2026-04-08 08:00:08] [INFO] Canary deployed: D:\AV\data\canary\Company_Passwords_Backup.docx
+[2026-04-08 08:00:08] [INFO] Canary deployed: D:\AV\data\canary\Financial_Report_Q4.pdf
+[2026-04-08 08:00:08] [INFO] Canary deployed: D:\AV\data\canary\Employee_Database.csv
+[2026-04-08 08:00:08] [INFO] Canary deployed: D:\AV\data\canary\Tax_Returns_2025.xlsx
+[2026-04-08 08:00:08] [INFO] Registry snapshot: 8 Run, 0 RunOnce entries
+[2026-04-08 08:00:08] [INFO] RansomwareShield initialized for: D:\AV\data\canary
+[2026-04-08 08:00:08] [INFO] RansomwareShield monitoring started
+[2026-04-08 08:01:00] [CRITICAL] THREAT: D:\AV\data\quarantine\1775400168468_eicar_com.zip.quarantined => Trojan.Win32.Agent.bq
+[2026-04-08 08:01:00] [INFO] Quarantined: D:\AV\data\quarantine\1775400168468_eicar_com.zip.quarantined -> 1775610060550_1775400168468_eicar_com.zip.quarantined.quarantined
+[2026-04-08 08:01:00] [CRITICAL] THREAT: D:\AV\data\quarantine\1775400242003_eicar_com.zip.quarantined => Trojan.Win32.Agent.bq
+[2026-04-08 08:01:00] [INFO] Quarantined: D:\AV\data\quarantine\1775400242003_eicar_com.zip.quarantined -> 1775610060552_1775400242003_eicar_com.zip.quarantined.quarantined
+[2026-04-08 08:01:00] [CRITICAL] THREAT: D:\AV\data\quarantine\1775444622269_eicar_com.zip.quarantined => Trojan.Win32.Agent.bq
+[2026-04-08 08:01:00] [INFO] Quarantined: D:\AV\data\quarantine\1775444622269_eicar_com.zip.quarantined -> 1775610060553_1775444622269_eicar_com.zip.quarantined.quarantined
+[2026-04-08 08:01:00] [CRITICAL] THREAT: D:\AV\data\quarantine\1775457598328_eicar_com.zip.quarantined => Trojan.Win32.Agent.bq
+[2026-04-08 08:01:00] [INFO] Quarantined: D:\AV\data\quarantine\1775457598328_eicar_com.zip.quarantined -> 1775610060554_1775457598328_eicar_com.zip.quarantined.quarantined
+[2026-04-08 08:01:15] [CRITICAL] THREAT: D:\eicar_com.zip => Trojan.Win32.Agent.bq
+[2026-04-08 08:01:15] [INFO] Quarantined: D:\eicar_com.zip -> 1775610075778_eicar_com.zip.quarantined
+[2026-04-08 08:10:55] [CRITICAL] THREAT: D:\testing\eicar_com.zip => Trojan.Win32.Agent.bq
+[2026-04-08 08:10:55] [INFO] Quarantined: D:\testing\eicar_com.zip -> 1775610655788_eicar_com.zip.quarantined
+[2026-04-08 08:10:56] [WARN] Cannot open file: D:\tmp\Temp\068c4741-4ff4-488d-ba28-4a2cc7f1398e.tmp
+[2026-04-08 08:10:56] [WARN] Cannot open file: D:\tmp\Temp\0b274f2e-7d8c-4064-87ec-7d7c61e88386.tmp
+[2026-04-08 08:10:59] [WARN] Cannot open file: D:\tmp\Temp\43f473a2-6b11-4886-bf84-1d1138704f16.tmp
+[2026-04-08 08:10:59] [WARN] Cannot open file: D:\tmp\Temp\459fb03a-5a09-4bbf-b42f-6904cf2b8a02.tmp
+[2026-04-08 08:10:59] [WARN] Cannot open file: D:\tmp\Temp\5813b0f1-a1fc-4953-815a-2b5d9ce013c1.tmp
+[2026-04-08 08:10:59] [WARN] Cannot open file: D:\tmp\Temp\7a14b5a9-9805-4a00-93d9-afa7212eb0ba.tmp
+[2026-04-08 08:10:59] [WARN] Cannot open file: D:\tmp\Temp\8758c2cf-c6f4-46af-8919-9cf855a2d959.tmp
+[2026-04-08 08:10:59] [WARN] Cannot open file: D:\tmp\Temp\8b7f8609-5a68-4fb4-98ff-0631432d459d.tmp
+[2026-04-08 08:10:59] [WARN] Cannot open file: D:\tmp\Temp\b3ba1439-f917-4702-9652-a98beed8ee9a.tmp
+[2026-04-08 08:10:59] [WARN] Cannot open file: D:\tmp\Temp\bab33913-e578-47a8-9774-27258cdda431.tmp
+[2026-04-08 08:11:00] [WARN] Cannot open file: D:\tmp\Temp\bdeb73d2-0f3c-439b-93fb-f62229aadc47.tmp
+[2026-04-08 08:11:00] [WARN] Cannot open file: D:\tmp\Temp\bf1d47e7-7e36-4293-b475-6724c9dda3bf.tmp
+[2026-04-08 08:11:00] [WARN] Cannot open file: D:\tmp\Temp\BYFC78D.tmp
+[2026-04-08 08:11:00] [WARN] Cannot open file: D:\tmp\Temp\BYFC78E.tmp
+[2026-04-08 08:11:00] [WARN] Cannot open file: D:\tmp\Temp\BYFC78F.tmp
+[2026-04-08 08:11:00] [WARN] Cannot open file: D:\tmp\Temp\BYFC790.tmp
+[2026-04-08 08:11:00] [WARN] Cannot open file: D:\tmp\Temp\BYFC791.tmp
+[2026-04-08 08:11:00] [WARN] Cannot open file: D:\tmp\Temp\BYFC792.tmp
+[2026-04-08 08:11:01] [WARN] Cannot open file: D:\tmp\Temp\d52b56f6-9a5e-47d1-b78d-730515c79a26.tmp
+[2026-04-08 08:11:01] [WARN] Cannot open file: D:\tmp\Temp\d8c43b08-8a47-411b-81e7-6cd6d0999d56.tmp
+[2026-04-08 08:11:02] [WARN] Cannot open file: D:\tmp\Temp\e0c12116-f7e2-4cfc-9d55-716a2759285f.tmp
+[2026-04-08 08:11:02] [WARN] Cannot open file: D:\tmp\Temp\e9b53cd9-3a4d-47d6-91f5-7a409f716d7a.tmp
+[2026-04-08 08:11:02] [WARN] Cannot open file: D:\tmp\Temp\f07157da-aff8-492d-96a9-35d4edfb8d13.tmp
+[2026-04-08 08:12:13] [INFO] Scan complete: 550730 scanned, 6 threats, 23 errors, 752.621951s
+[2026-04-08 08:13:57] [INFO] RansomwareShield stopped
+[2026-04-08 08:13:57] [INFO] ProcessGuard stopped

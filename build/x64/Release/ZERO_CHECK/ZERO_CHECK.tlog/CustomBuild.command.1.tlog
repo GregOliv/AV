@@ -1,0 +1,10 @@
+^D:\AV\BUILD\CMAKEFILES\74133B6ACAE6B8CB769E1F027B2410F5\GENERATE.STAMP.RULE
+setlocal
+D:\cmake\bin\cmake.exe -SD:/AV -BD:/AV/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/AV/build/AVScanner.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

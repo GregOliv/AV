@@ -1,0 +1,11 @@
+D:\AV\src\main.cpp;D:\AV\build\gor_scanner.dir\Release\main.obj
+D:\AV\src\scanner\scanner.cpp;D:\AV\build\gor_scanner.dir\Release\scanner.obj
+D:\AV\src\scanner\file_walker.cpp;D:\AV\build\gor_scanner.dir\Release\file_walker.obj
+D:\AV\src\scanner\hash_calculator.cpp;D:\AV\build\gor_scanner.dir\Release\hash_calculator.obj
+D:\AV\src\scanner\pe_analyzer.cpp;D:\AV\build\gor_scanner.dir\Release\pe_analyzer.obj
+D:\AV\src\scanner\signature_matcher.cpp;D:\AV\build\gor_scanner.dir\Release\signature_matcher.obj
+D:\AV\src\database\hash_database.cpp;D:\AV\build\gor_scanner.dir\Release\hash_database.obj
+D:\AV\src\quarantine\quarantine.cpp;D:\AV\build\gor_scanner.dir\Release\quarantine.obj
+D:\AV\src\protection\ransomware_shield.cpp;D:\AV\build\gor_scanner.dir\Release\ransomware_shield.obj
+D:\AV\src\protection\process_guard.cpp;D:\AV\build\gor_scanner.dir\Release\process_guard.obj
+D:\AV\src\utils\logger.cpp;D:\AV\build\gor_scanner.dir\Release\logger.obj

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AV Guard - Antivirus Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg-glow"></div>
+<div class="app">
+  <nav class="sidebar">
+    <div class="logo"><span class="logo-icon">🛡️</span> AG Guard</div>
+    <div class="nav-list">
+      <button class="nav-btn active" data-tab="dashboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>Dashboard</button>
+      <button class="nav-btn" data-tab="scan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>Scan</button>
+      <button class="nav-btn" data-tab="quarantine"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Quarantine</button>
+      <button class="nav-btn" data-tab="realtime"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>Real-Time</button>
+      <button class="nav-btn" data-tab="settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>Settings</button>
+      <button class="nav-btn" data-tab="logs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>Logs</button>
+    </div>
+    <div class="sidebar-footer">v1.0.0 &middot; Educational</div>
+  </nav>
+
+  <main class="content">
+    <!-- DASHBOARD -->
+    <section class="tab-panel active" id="tab-dashboard">
+      <h2>Health Overview</h2>
+      <p class="subtitle">System protection status at a glance.</p>
+      <div class="status-banner safe"><span class="pulse-dot"></span> System Protected — No threats detected</div>
+      <div class="stats-row">
+        <div class="stat-card"><span class="stat-val" id="stat-files">0</span><span class="stat-lbl">Files Scanned</span></div>
+        <div class="stat-card danger"><span class="stat-val" id="stat-threats">0</span><span class="stat-lbl">Threats Found</span></div>
+        <div class="stat-card accent"><span class="stat-val" id="stat-quarantined">0</span><span class="stat-lbl">Quarantined</span></div>
+        <div class="stat-card"><span class="stat-val" id="stat-db">1</span><span class="stat-lbl">DB Signatures</span></div>
+      </div>
+      <div class="card"><h3>Recent Activity</h3><div id="activity-log" class="log-area"><div class="log-empty">No recent activity. Start a scan to begin.</div></div></div>
+    </section>
+
+    <!-- SCAN -->
+    <section class="tab-panel" id="tab-scan">
+      <h2>Scan Files</h2>
+      <p class="subtitle">Choose a scan mode to analyze your system.</p>
+      <div class="scan-modes">
+        <div class="scan-card" onclick="startQuickScan()"><div class="scan-icon">⚡</div><h3>Quick Scan</h3><p>Scan common threat locations</p></div>
+        <div class="scan-card" onclick="startCustomScan()"><div class="scan-icon">📂</div><h3>Custom Scan</h3><p>Choose specific folder to scan</p></div>
+        <div class="scan-card" onclick="startFullScan()"><div class="scan-icon">🔍</div><h3>Full Scan</h3><p>Deep scan entire system</p></div>
+      </div>
+      <div class="card" id="scan-progress-card" style="display:none;">
+        <h3>Scan Progress</h3>
+        <div class="progress-bar"><div class="progress-fill" id="scan-fill"></div></div>
+        <p class="scan-detail" id="scan-detail">Initializing...</p>
+        <div id="scan-results"></div>
+      </div>
+    </section>
+
+    <!-- QUARANTINE -->
+    <section class="tab-panel" id="tab-quarantine">
+      <h2>Quarantine</h2>
+      <p class="subtitle">Isolated threats are stored safely here.</p>
+      <div class="card"><table class="q-table"><thead><tr><th>File</th><th>Threat</th><th>Date</th><th>Action</th></tr></thead><tbody id="q-body"><tr><td colspan="4" class="log-empty">No quarantined files.</td></tr></tbody></table></div>
+    </section>
+
+    <!-- REAL-TIME -->
+    <section class="tab-panel" id="tab-realtime">
+      <h2>Real-Time Protection</h2>
+      <p class="subtitle">Monitor file system changes live.</p>
+      <div class="toggle-card"><div><strong>File System Monitor</strong><p class="dim">Watch Downloads, Desktop, AppData for new files</p></div><label class="switch"><input type="checkbox" id="rt-toggle" onchange="toggleRealtime()"><span class="slider"></span></label></div>
+      <div class="card"><h3>Monitored Directories</h3>
+        <div class="dir-list" id="dir-list">
+          <div class="dir-item"><span>📁 C:\Users\Downloads</span><span class="badge active">Active</span></div>
+          <div class="dir-item"><span>📁 C:\Users\Desktop</span><span class="badge active">Active</span></div>
+          <div class="dir-item"><span>📁 C:\Users\AppData</span><span class="badge">Inactive</span></div>
+        </div>
+      </div>
+      <div class="card"><h3>Live Events</h3><div id="rt-log" class="log-area"><div class="log-empty">Enable real-time protection to see events.</div></div></div>
+    </section>
+
+    <!-- SETTINGS -->
+    <section class="tab-panel" id="tab-settings">
+      <h2>Settings</h2>
+      <p class="subtitle">Configure your antivirus behavior.</p>
+      <div class="settings-grid">
+        <div class="card setting-card"><h3>🗄️ Database</h3>
+          <label>Hash Database Path</label><input type="text" id="cfg-db" value="data/hashdb.txt">
+          <label>Max File Size (MB)</label><input type="number" id="cfg-maxsize" value="100" min="1" max="1000">
+        </div>
+        <div class="card setting-card"><h3>🔒 Quarantine</h3>
+          <label>Quarantine Folder</label><input type="text" id="cfg-qdir" value="data/quarantine">
+          <div class="toggle-row"><span>Auto-Quarantine Threats</span><label class="switch"><input type="checkbox" id="cfg-autoq" checked><span class="slider"></span></label></div>
+        </div>
+        <div class="card setting-card"><h3>📡 Scanning</h3>
+          <div class="toggle-row"><span>Scan Archive Files (ZIP)</span><label class="switch"><input type="checkbox" id="cfg-zip" checked><span class="slider"></span></label></div>
+          <div class="toggle-row"><span>PE Header Analysis</span><label class="switch"><input type="checkbox" id="cfg-pe" checked><span class="slider"></span></label></div>
+          <div class="toggle-row"><span>Signature Matching</span><label class="switch"><input type="checkbox" id="cfg-sig" checked><span class="slider"></span></label></div>
+        </div>
+        <div class="card setting-card"><h3>🔔 Notifications</h3>
+          <div class="toggle-row"><span>Desktop Notifications</span><label class="switch"><input type="checkbox" id="cfg-notif" checked><span class="slider"></span></label></div>
+          <div class="toggle-row"><span>Sound on Threat</span><label class="switch"><input type="checkbox" id="cfg-sound"><span class="slider"></span></label></div>
+        </div>
+      </div>
+      <button class="btn-primary" onclick="saveSettings()">💾 Save Settings</button>
+    </section>
+
+    <!-- LOGS -->
+    <section class="tab-panel" id="tab-logs">
+      <h2>Scan Logs</h2>
+      <p class="subtitle">History of all scan operations.</p>
+      <div class="card"><div id="full-log" class="log-area tall"><div class="log-empty">No logs yet. Perform a scan to generate logs.</div></div></div>
+      <button class="btn-secondary" onclick="clearLogs()">🗑️ Clear Logs</button>
+    </section>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

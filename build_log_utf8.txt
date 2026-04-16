@@ -1,0 +1,5 @@
+﻿MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+
+  ransomware_shield.cpp
+D:\AV\src\protection\ransomware_shield.cpp(41,37): error C2220: the following warning is treated as an error [D:\AV\build\av_gui.vcxproj]
+D:\AV\src\protection\ransomware_shield.cpp(41,37): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [D:\AV\build\av_gui.vcxproj]
